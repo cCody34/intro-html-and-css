@@ -15,6 +15,10 @@ header {
   margin: 0 auto;
 }
 
+.headers {
+  font-family: georgia;
+}
+
 h1 {
   font-family: Corinthia;
   font-size: 100px;
@@ -30,7 +34,7 @@ h1 {
   vertical-align: middle;
   border-radius: 50%;
   opacity: 0.8;
-  margin: 0, 0, 0, 20px;
+  margin: 0, 0, 0, 10;
 }
 
 body {
@@ -38,13 +42,42 @@ body {
   color: #633974;
 }
 
-.catImage {
-  height: 300px;
+#catImagesDiv {
+  width: 95%;
+  padding: 0, auto;
+  margin: 0, auto;
+}
+
+#catImagesDiv > .catImage {
   display: inline-block;
+  zoom: 1; /* Trigger hasLayout */
+  width: 30%;
+}
+
+.catImage {
+  height: auto;
+  max-height: 200px;
+  display: inline-block;
+  margin: 20px, 0;
+  padding: 0;
 }
 
 ol,
 ul {
   padding-left: 25px;
   margin: 16px, 0;
+  color: #020103;
+}
+
+a:link {
+  color: #564963;
+}
+a:visited {
+  color: #8a858f;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: white;
 }
