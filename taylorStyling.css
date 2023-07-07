@@ -25,6 +25,10 @@ header {
   padding: 10px 0;
 }
 
+#header-content-div > .header {
+  max-width: ;
+}
+
 h1 {
   font-family: Corinthia;
   font-size: 100px;
@@ -49,23 +53,31 @@ body {
 }
 
 #catImagesDiv {
-  width: 95%;
-  padding: 0, auto;
-  margin: 0, auto;
+  display: flex;
+  background-color: rgb(254, 237, 255);
+  align-content: center;
+  justify-content: center;
 }
 
-#catImagesDiv > .catImage {
-  display: inline-block;
-  zoom: 1; /* Trigger hasLayout */
-  width: 30%;
+#catImagesDiv > img {
+  background-color: aqua;
+  align-items: center;
+  height: 200px;
+  margin: 20px;
+  width: 100%;
+  max-height: 100%;
+  max-width: fit-content;
+}
+
+#cat-img-div {
+  height: 100px;
+  width: 100px;
 }
 
 .catImage {
-  height: auto;
-  max-height: 200px;
-  display: inline-block;
-  margin: 20px, 0;
-  padding: 0;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 
 ol,
@@ -86,4 +98,11 @@ a:hover {
 }
 a:active {
   color: white;
+}
+
+footer {
+  color: white;
+  background-color: #633974;
+  padding: 5px;
+  border-radius: 10%;
 }
