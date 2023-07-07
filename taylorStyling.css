@@ -19,6 +19,12 @@ header {
   font-family: georgia;
 }
 
+#header-content-div {
+  margin: 0, auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
 h1 {
   font-family: Corinthia;
   font-size: 100px;
