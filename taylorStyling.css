@@ -1,7 +1,13 @@
+* {
+}
+
+h1 {
+  font-family: Tangerine;
+}
+
 body {
   background-color: #ebdef0;
   color: #633974;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .catImage {
