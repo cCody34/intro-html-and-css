@@ -1,8 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Corinthia&display=swap");
+
 * {
+}
+header {
+  background-color: rgb(254, 237, 255);
+  border-radius: 10%;
 }
 
 h1 {
-  font-family: Tangerine;
+  font-family: Corinthia;
+  font-size: 100px;
+  font-weight: 100;
+  display: inline;
+  margin: auto, 0;
+  text-shadow: #664379, 100px, 100px, 100px;
+}
+#profile-img {
+  height: 200px;
+  display: inline-block;
+  border-radius: 50%;
+  opacity: 0.8;
+  border: auto, 0;
 }
 
 body {
@@ -12,4 +30,5 @@ body {
 
 .catImage {
   height: 300px;
+  display: inline-block;
 }
