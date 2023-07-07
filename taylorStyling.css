@@ -1,10 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Corinthia&display=swap");
 
 * {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
 }
 header {
   background-color: rgb(254, 237, 255);
   border-radius: 10%;
+  height: 300px;
+  width: 90%;
+  margin: auto, 0;
+  align-items: center;
+  margin: 0 auto;
 }
 
 h1 {
@@ -12,15 +20,17 @@ h1 {
   font-size: 100px;
   font-weight: 100;
   display: inline;
+  vertical-align: middle;
   margin: auto, 0;
   text-shadow: #664379, 100px, 100px, 100px;
 }
 #profile-img {
   height: 200px;
   display: inline-block;
+  vertical-align: middle;
   border-radius: 50%;
   opacity: 0.8;
-  border: auto, 0;
+  margin: 0, 0, 0, 20px;
 }
 
 body {
@@ -31,4 +41,10 @@ body {
 .catImage {
   height: 300px;
   display: inline-block;
+}
+
+ol,
+ul {
+  padding-left: 25px;
+  margin: 16px, 0;
 }
